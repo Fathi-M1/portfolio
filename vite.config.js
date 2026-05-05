@@ -11,6 +11,7 @@ export default defineConfig({
   plugins: [react()],
   define: {
     global: 'window',
+    __DEV__: "true",
   },
   resolve: {
     alias: {
